@@ -7,7 +7,7 @@
     },
     "require": {
         "laravel/framework": "~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|^12.0",
-        "optimus/architect": "2.0.*"
+        "optimus/architect": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "1.3.*",
@@ -17,5 +17,11 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "license": "MIT"
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/insurama/architect"
+        }
+    ]
 }
